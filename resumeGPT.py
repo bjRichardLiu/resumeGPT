@@ -44,7 +44,6 @@ def main():
     # Interactive questions and answers
     
     query = "Find my matching experience for " + input("\nEnter the job name: ") + "from the text files"
-
     # Get the answer from the chain
     start = time.time()
     res = qa(query)
@@ -57,10 +56,21 @@ def main():
     print(f"\n> Answer (took {round(end - start, 2)} s.):")
     print(answer)
 
+    # write to a text file
+    files = [doc.metadata["source"] for doc in docs]
+    files = set(files)
+    data = ""
+    for fi in files:
+        with open(fi) as fp:
+            data += fp.read() + "\n"
+    with open("result.txt", "w") as f:
+        f.write(data)
+    
     # Print the relevant sources used for the answer
     for document in docs:
         print("\n> " + document.metadata["source"] + ":")
         print(document.page_content)
+    
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='privateGPT: Ask questions to your documents without an internet connection, '
@@ -73,6 +83,7 @@ def parse_arguments():
                         help='Use this flag to disable the streaming StdOut callback for LLMs.')
 
     return parser.parse_args()
+
 
 
 if __name__ == "__main__":

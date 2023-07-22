@@ -1,0 +1,19 @@
+Self Taught Game Developer
+
+Programmer, Technical Artist
+
+Self-taught game engine Unity, Unity API and coding language C# by myself, currently learning Unreal engine
+Served as the programmer for 5 indie games and Lead Programmer for 2 of them, responsible for writing all of the codes in C#, communicate with the designer and artists to collect their needs and adjust the code, testing and documenting bugs
+Self-taught Blender and animator in Unity
+Served as the technical artist for 2 indie games, transform 2D art resources into animation, adding skeleton to 3D models, designing particle system like cloud and wind
+3 of them received awards from multiple national game development competitions
+Tencent Game Marketing and User Experience Research
+
+Researcher
+
+One of the 30 students selected from 1000 applications to participate in this program about game marketing and user experience research
+Perform game player survey, analyze and research the new trend in the game market
+Write an in-depth report on a new trend in the entertainment industry twice a week
+Attend monthly team research program, focusing on a more specific topic, present the research outcome to the mentors and relating staff members from Tencent
+Authored an article discussing the latest trends among Chinese youth, which Tencent has published
+The research lasts 6 months, and work 12 hours per week
