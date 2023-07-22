@@ -1,0 +1,9 @@
+Self Taught Game Developer
+
+Programmer, Technical Artist
+
+Self-taught game engine Unity, Unity API and coding language C# by myself, currently learning Unreal engine
+Served as the programmer for 5 indie games and Lead Programmer for 2 of them, responsible for writing all of the codes in C#, communicate with the designer and artists to collect their needs and adjust the code, testing and documenting bugs
+Self-taught Blender and animator in Unity
+Served as the technical artist for 2 indie games, transform 2D art resources into animation, adding skeleton to 3D models, designing particle system like cloud and wind
+3 of them received awards from multiple national game development competitions
