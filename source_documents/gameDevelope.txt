@@ -1,7 +1,7 @@
 Self Taught Game Developer
-
+May 2022 - Present
 Programmer, Technical Artist
-
+Online
 Self-taught game engine Unity, Unity API and coding language C# by myself, currently learning Unreal engine
 Served as the programmer for 5 indie games and Lead Programmer for 2 of them, responsible for writing all of the codes in C#, communicate with the designer and artists to collect their needs and adjust the code, testing and documenting bugs
 Self-taught Blender and animator in Unity
