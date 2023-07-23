@@ -1,0 +1,5 @@
+Indie Game: Stoneman's Adventure (Available on Steam)
+May 2022 - August 2022
+Responsible for all audio related codes
+Worked closely with the composer, used Wwise to create interactive audio playing algorithms
+Mixed and created sound effects

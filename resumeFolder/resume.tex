@@ -1,6 +1,7 @@
 %-------------------------
 % Resume in Latex
 % Author : Sourabh Bajaj
+% 
 % Modified by : Ruichen Liu
 % License : MIT
 %------------------------
@@ -49,9 +50,14 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
+% \newcommand{\resumeItem}[2]{
+  % \item\small{
+    % \textbf{#1}{: #2 \vspace{-2pt}}
+  % }
+% }
+\newcommand{\resumeItem}[1]{
   \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+    {#1}
   }
 }
 
@@ -86,7 +92,7 @@
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
-\renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemii}{$\bullet$}
 
 % \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label=]}
@@ -119,7 +125,19 @@
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
-\input{src/file1}
-\input{src/file2}
+\section{Experience}
+  \resumeSubHeadingListStart
+    \input{src/Experience1.tex}
+    \input{src/Experience2.tex}
+        
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \input{src/Project1.tex}
+    \input{src/Project2.tex}
+        
+  \resumeSubHeadingListEnd
 
 \end{document}

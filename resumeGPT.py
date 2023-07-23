@@ -59,6 +59,7 @@ def main():
     print(f"\n> Answer (took {round(end - start, 2)} s.):")
     print(answer)
 
+    """
     # write to a text file
     files = [doc.metadata["source"] for doc in docs]
     files = set(files)
@@ -68,6 +69,20 @@ def main():
             data += fp.read() + "\n"
     with open("result.txt", "w") as f:
         f.write(data)
+    """
+    
+    # write to a latex file
+    files = [doc.metadata["source"] for doc in docs]
+    files = set(files)
+    i = 1
+    for fi in files:
+        print(fi)
+        if 'E' in fi:
+            txtToLatex(fi, "resumeFolder/src/Experience" + str(i) + ".tex")
+        if 'P' in fi:
+            txtToLatex(fi, "resumeFolder/src/Project" + str(i) + ".tex")
+        i += 1
+    
     
     # Print the relevant sources used for the answer
     for document in docs:
@@ -88,17 +103,27 @@ def parse_arguments():
     return parser.parse_args()
 
 def createEmptyFiles():
-    with open(os.path.join("src/", "file1.tex"), 'w') as fp:
-        pass
-    with open(os.path.join("src/", "file2.tex"), 'w') as fp:
-        pass
-    with open(os.path.join("src/", "file3.tex"), 'w') as fp:
-        pass
+    with open(os.path.join("resumeFolder/src/", "Experience1.tex"), 'w') as fp:
+        fp.write("% Empty file")
+    with open(os.path.join("resumeFolder/src/", "Experience2.tex"), 'w') as fp:
+        fp.write("% Empty file")
+    with open(os.path.join("resumeFolder/src/", "Project1.tex"), 'w') as fp:
+        fp.write("% Empty file")
+    with open(os.path.join("resumeFolder/src/", "Project2.tex"), 'w') as fp:
+        fp.write("% Empty file")
 
 def txtToLatex(filename, outputName):
     with open(filename) as f:
         lines = [line.rstrip('\n') for line in f]
-    
+
+    with open(outputName, "w") as f:
+        f.write("\\resumeSubheading\n")
+        f.write("   {" + lines[0] + "}" + "{" + lines[1] + "}\n")
+        f.write("   {" + lines[2] + "}" + "{" + lines[3] + "}\n")
+        f.write("   \\resumeItemListStart\n")
+        for i in range(4, len(lines)):
+            f.write("       \\resumeItem{" + lines[i] + "}\n")
+        f.write("   \\resumeItemListEnd\n")
 
 
 if __name__ == "__main__":
