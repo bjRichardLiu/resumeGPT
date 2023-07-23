@@ -74,14 +74,16 @@ def main():
     # write to a latex file
     files = [doc.metadata["source"] for doc in docs]
     files = set(files)
-    i = 1
+    e = 1
+    p = 1
     for fi in files:
         print(fi)
         if 'E' in fi:
-            txtToLatex(fi, "resumeFolder/src/Experience" + str(i) + ".tex")
+            txtToLatex(fi, "resumeFolder/src/Experience" + str(e) + ".tex")
+            e += 1
         if 'P' in fi:
-            txtToLatex(fi, "resumeFolder/src/Project" + str(i) + ".tex")
-        i += 1
+            txtToLatex(fi, "resumeFolder/src/Project" + str(p) + ".tex")
+            p += 1
     
     
     # Print the relevant sources used for the answer
@@ -115,7 +117,6 @@ def createEmptyFiles():
 def txtToLatex(filename, outputName):
     with open(filename) as f:
         lines = [line.rstrip('\n') for line in f]
-
     with open(outputName, "w") as f:
         f.write("\\resumeSubheading\n")
         f.write("   {" + lines[0] + "}" + "{" + lines[1] + "}\n")

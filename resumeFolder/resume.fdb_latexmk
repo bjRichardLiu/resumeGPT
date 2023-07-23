@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1690072785 "/Users/liuruichen/Desktop/resumeGPT/resumeFolder/resume.tex" "resume.pdf" "resume" 1690072785
-  "/Users/liuruichen/Desktop/resumeGPT/resumeFolder/resume.tex" 1690072784 3944 f916488a2ad435263cbbce152a8f7b7d ""
+["pdflatex"] 1690074339 "/Users/liuruichen/Desktop/resumeGPT/resumeFolder/resume.tex" "resume.pdf" "resume" 1690074340
+  "/Users/liuruichen/Desktop/resumeGPT/resumeFolder/resume.tex" 1690074297 3944 f916488a2ad435263cbbce152a8f7b7d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -80,13 +80,13 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1665262678 2826442 2d1105a58857c1aacf75aef6c9bb9b0b ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "resume.aux" 1690072785 1086 d437742f8c4543badf101c6e047a0c04 "pdflatex"
-  "resume.out" 1690072785 274 74b468d7802f9e5b619081654b3d5963 "pdflatex"
-  "resume.tex" 1690072784 3944 f916488a2ad435263cbbce152a8f7b7d ""
-  "src/Experience1.tex" 1690072729 12 da95a78f0220dff669bab8765e36cbf6 ""
-  "src/Experience2.tex" 1690072769 899 fa8393fe3d1e8aba5561c87cdabc9a44 ""
-  "src/Project1.tex" 1690072769 445 cf4a105f286cc3febeb28a5ba38aca1b ""
-  "src/Project2.tex" 1690072729 12 da95a78f0220dff669bab8765e36cbf6 ""
+  "resume.aux" 1690074340 1086 d437742f8c4543badf101c6e047a0c04 "pdflatex"
+  "resume.out" 1690074340 274 74b468d7802f9e5b619081654b3d5963 "pdflatex"
+  "resume.tex" 1690074297 3944 f916488a2ad435263cbbce152a8f7b7d ""
+  "src/Experience1.tex" 1690074339 899 fa8393fe3d1e8aba5561c87cdabc9a44 ""
+  "src/Experience2.tex" 1690074339 905 5d95352b7d449876117a2b4449013def ""
+  "src/Project1.tex" 1690074339 514 a18c77e5c057c93eab44e01c7a5eeffd ""
+  "src/Project2.tex" 1690074339 401 a6857a1671cb50aa795490318ce87f15 ""
   (generated)
   "resume.aux"
   "resume.log"

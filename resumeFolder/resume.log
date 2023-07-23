@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  22 JUL 2023 20:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.8)  22 JUL 2023 21:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,17 +284,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 110.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) (./src/Experience1.tex) (./src/Experience2.tex
+) (./src/Experience1.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 6.
-) (./src/Project1.tex
-Overfull \hbox (128.16681pt too wide) in alignment at lines 3--3
-[] [] 
- []
-
-) (./src/Project2.tex)
+) (./src/Experience2.tex) (./src/Project1.tex) (./src/Project2.tex)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -309,13 +304,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10223 strings out of 478268
  162011 string characters out of 5846347
- 481264 words of memory out of 5000000
+ 490264 words of memory out of 5000000
  28302 multiletter control sequences out of 15000+600000
  473851 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,63p,374b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on resume.pdf (1 page, 68708 bytes).
+Output written on resume.pdf (1 page, 72684 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
